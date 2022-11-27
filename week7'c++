@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std; 
+int main() { 
+int num1, num2 , x , abc ;
+cout<<"please enter two entegers values :";
+cin>> num1 >> num2 ;
+
+for(x=1 ;  x<= num1 &&  num2 % x == 0)
+}
+
+if( num1 % num2  == 0);
+cout<<"abc of" << num1 << "and" << num2 << "is" << "abc" ;
+}
