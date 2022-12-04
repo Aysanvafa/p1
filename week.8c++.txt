@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main(){
+int aray x[5];
+int aray y[5];
+int i;
+int temp;
+cout<<"pleas enter 5 number for aray x:";
+for(i=0 ; i<5 ; i++){
+	cin>>aray x[i];
+	}
+	cout<<"pleas enter 5 number for aray y:";
+	for(i=0 ; i<5 ; i++){
+		cin>>aray y[i];
+	}
+	for(i=0 ; i<5 ; i++){
+		temp=aray x[i];
+		aray x[i]=aray y[i];
+		aray y[i]=temp;
+	}
+	cout<<"aray x:\n";
+	for(i=0 ; i<5 ; i++){
+	 cout<<aray x[i]<<"_";
+	 }
+	 cout<<"aray y:\n";
+	 for(i=0 ; i<5 ; i++){
+	  cout<<aray y[i]<<"_";
+	  }
